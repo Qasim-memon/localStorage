@@ -55,7 +55,7 @@ function addTodo() {
     console.log("Todos null ho to naya banado=>", todos);
     localStorage.setItem("todos", JSON.stringify(todos));
   }
-
+//call function
   showTodos();
 }
 
